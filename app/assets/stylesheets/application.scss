@@ -103,6 +103,23 @@ form.button_to {
     text-transform: uppercase;
     font-style: italic;
   }
+
+  .login-button {
+    color: white;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 5px;
+  }
+
+  .signup-button {
+    color: white;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    text-decoration: none;
+  }
 }
 
 .page-header {
@@ -111,3 +128,4 @@ form.button_to {
 .text-danger {
   color: #f38792 !important;
 }
+
