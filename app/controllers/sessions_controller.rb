@@ -7,6 +7,7 @@ class SessionsController < ApplicationController
 
     if user && user.authenticate(params[:password])
       session[:user_id] = user.id
+      puts "testing #{session[:user_id]}"
       redirect_to '/'
     else
       redirect_to '/login'
