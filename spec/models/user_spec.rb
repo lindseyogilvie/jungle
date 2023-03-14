@@ -97,5 +97,13 @@ RSpec.describe User, type: :model do
 
       expect(logged_in_user).to be_nil
     end
+
+    it "should authenticate user if there are extra spaces before or after their email address" do
+      @user = User.create(first_name: "Sally", last_name: "Hunter", email: "sallyhunter@gmail.com", password: "happybirthday123", password_confirmation: "happybirthday123")
+      logged_in_user = User.authenticate_with_credentials("  sallyhunter@gmail.com  ", @user.password)
+
+      expect(logged_in_user).to_not be_nil
+      expect(logged_in_user).to eql(@user)
+    end
   end
 end
