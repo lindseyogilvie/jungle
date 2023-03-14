@@ -73,7 +73,29 @@ RSpec.describe User, type: :model do
 
       expect(@user.errors.full_messages).to include("Password must be at least 8 characters.")
     end 
-
   end
-   
+
+  describe ".authenticate_with_credentials" do
+    it "should authenticate user if email and password credentials are correct" do
+      @user = User.create(first_name: "Sally", last_name: "Hunter", email: "sallyhunter@gmail.com", password: "happybirthday123", password_confirmation: "happybirthday123")
+      logged_in_user = User.authenticate_with_credentials(@user.email, @user.password)
+
+      expect(logged_in_user).to_not be_nil
+      expect(logged_in_user).to eql(@user)
+    end
+
+    it "should not authenticate user if email is incorrect" do
+      @user = User.create(first_name: "Sally", last_name: "Hunter", email: "sallyhunter@gmail.com", password: "happybirthday123", password_confirmation: "happybirthday123")
+      logged_in_user = User.authenticate_with_credentials("hunter@gmail.com", @user.password)
+
+      expect(logged_in_user).to be_nil
+    end
+
+    it "should not authenticate user if password is incorrect" do
+      @user = User.create(first_name: "Sally", last_name: "Hunter", email: "sallyhunter@gmail.com", password: "happybirthday123", password_confirmation: "happybirthday123")
+      logged_in_user = User.authenticate_with_credentials(@user.email, "happyholidays")
+
+      expect(logged_in_user).to be_nil
+    end
+  end
 end
