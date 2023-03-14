@@ -67,6 +67,13 @@ RSpec.describe User, type: :model do
       expect(@user.errors.full_messages).to include("Password confirmation doesn't match Password")
     end 
 
+    it "should throw a useful error when the password is not long enough" do
+      @user = User.new(first_name: "Sally", last_name: "Hunter", email: "sallyhunter@gmail.com", password: "happy", password_confirmation: "happy")
+      expect(@user).to_not be_valid
+
+      expect(@user.errors.full_messages).to include("Password must be at least 8 characters.")
+    end 
+
   end
    
 end
