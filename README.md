@@ -2,6 +2,15 @@
 
 A mini e-commerce application built with Rails 6.1 for purposes of teaching Rails by example.
 
+## Final Product
+
+### Homepage View
+!["Screenshot of homepage view"](https://github.com/lindseyogilvie/jungle/blob/master/docs/homepage_1.png?raw=true)
+!["Screenshot of homepage view"](https://github.com/lindseyogilvie/jungle/blob/master/docs/homepage_2.png?raw=true)
+
+### Homepage View
+!["Screenshot of homepage view"](https://github.com/lindseyogilvie/jungle/blob/master/docs/homepage_2.png?raw=true)
+
 ## Setup
 
 1. Run `bundle install` to install dependencies
