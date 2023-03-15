@@ -8,8 +8,33 @@ A mini e-commerce application built with Rails 6.1 for purposes of teaching Rail
 !["Screenshot of homepage view"](https://github.com/lindseyogilvie/jungle/blob/master/docs/homepage_1.png?raw=true)
 !["Screenshot of homepage view"](https://github.com/lindseyogilvie/jungle/blob/master/docs/homepage_2.png?raw=true)
 
-### Homepage View
-!["Screenshot of homepage view"](https://github.com/lindseyogilvie/jungle/blob/master/docs/homepage_2.png?raw=true)
+### Product Category View
+!["Screenshot of product category view"](https://github.com/lindseyogilvie/jungle/blob/master/docs/product_category.png?raw=true)
+
+### Product Details View
+!["Screenshot of product details view"](https://github.com/lindseyogilvie/jungle/blob/master/docs/product_details.png?raw=true)
+
+### Cart View
+!["Screenshot of cart view"](https://github.com/lindseyogilvie/jungle/blob/master/docs/user_cart.png?raw=true)
+
+### Order View
+!["Screenshot of order view"](https://github.com/lindseyogilvie/jungle/blob/master/docs/user_order.png?raw=true)
+
+### User Registration View
+!["Screenshot of user registration view"](https://github.com/lindseyogilvie/jungle/blob/master/docs/user_registration.png?raw=true)
+
+### User Login View
+!["Screenshot of user login view"](https://github.com/lindseyogilvie/jungle/blob/master/docs/user_login.png?raw=true)
+
+### Admin Dashboard View
+!["Screenshot of admin dashboard view"](https://github.com/lindseyogilvie/jungle/blob/master/docs/admin_dashboard.png?raw=true)
+
+### Admin Products View
+!["Screenshot of admin products view"](https://github.com/lindseyogilvie/jungle/blob/master/docs/admin_products.png?raw=true)
+
+### Admin Categories View
+!["Screenshot of admin categories view"](https://github.com/lindseyogilvie/jungle/blob/master/docs/admin_categories.png?raw=true)
+
 
 ## Setup
 
