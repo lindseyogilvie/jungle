@@ -4,8 +4,12 @@ A mini e-commerce application built with Rails 6.1 for purposes of teaching Rail
 
 ## Final Product
 
-### Desktop View
-!["Screenshot of desktop view"]()
+### Homepage View
+!["Screenshot of homepage view"](https://github.com/lindseyogilvie/jungle/blob/master/docs/homepage_1.png?raw=true)
+!["Screenshot of homepage view"](https://github.com/lindseyogilvie/jungle/blob/master/docs/homepage_2.png?raw=true)
+
+### Homepage View
+!["Screenshot of homepage view"](https://github.com/lindseyogilvie/jungle/blob/master/docs/homepage_2.png?raw=true)
 
 ## Setup
 
